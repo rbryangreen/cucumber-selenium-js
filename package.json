@@ -1,0 +1,19 @@
+{
+  "name": "selenium-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -r cjs-loader ./node_modules/.bin/cucumber-js --require features/step_definitions"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cucumber": "^6.0.7",
+    "selenium-webdriver": "^4.16.0"
+  },
+  "devDependencies": {
+    "cjs-loader": "^0.1.0"
+  }
+}
